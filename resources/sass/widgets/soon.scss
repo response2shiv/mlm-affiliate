@@ -1,0 +1,23 @@
+  .hover-image span {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    bottom: 200px;
+    width: 95.5%;
+    line-height: 45px;
+    height: 45px;
+    display: block;
+    background-color: #434344;
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto";
+    left: 15px;
+    top: 0;
+    margin: auto;
+    transition: all 0.4s ease;
+}
+  .hover-image:hover span {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+  }

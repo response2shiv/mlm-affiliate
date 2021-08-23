@@ -1,0 +1,138 @@
+.widget-rank-insights {
+  .ibox-title {
+    padding: 15px 15px 8px 15px;
+  }
+
+  .list-group {
+    .list-group-item {
+      border-width: 0;
+    }
+
+    .list-group-item-label, .list-group-item-value {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .list-group-item-value {
+      color: $blue;
+      text-transform: uppercase;
+    }
+
+    .lifetime-rank {
+      color: $darkGrey;
+    }
+  }
+
+  .list-contributors {
+    font-size: 16px;
+
+    li {
+      font-weight: 500;
+      padding: 10px 0;
+
+      .value {
+        font-weight: 500;
+        font-size: 18px !important;
+      }
+
+      &:nth-child(1) {
+        .value {
+          color: rgb(235, 203, 21);
+        }
+      }
+
+      &:nth-child(2) {
+        .value {
+          color: #016dcc;
+        }
+      }
+
+      &:nth-child(3) {
+        .value {
+          color: #0088ff;
+        }
+      }
+
+      &:nth-child(4) {
+        .value {
+          color: #5cb1fc;
+        }
+      }
+
+      &:nth-child(5) {
+        .value {
+          color: #9bccf7;
+        }
+      }
+
+      &:nth-child(6) {
+        .value {
+          color: #9bccf7;
+        }
+      }
+
+      &:nth-child(7) {
+        .value {
+          color: #9bccf7;
+        }
+      }
+    }
+  }
+
+  .custom-tabs {
+    list-style-type: none;
+    
+    li {     
+      padding: 15px 0 0 0;
+    }
+  }
+
+  .tab-item {
+    display: inline-block;
+    color: #D3D3D3;
+    cursor: pointer;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .tab-item.tab-active {
+    color: #01B6EB;
+    border-bottom: 2px solid #01B6EB;
+  }
+
+  select {
+    font-size: 15px;
+  }
+
+  .border-right{
+    border-right: 1px solid #f7f7f7 !important;
+  }
+
+  .border-bottom{
+    border-bottom: 1px solid #f7f7f7 !important;
+  }
+  
+  .border-bottom-title {
+    border-bottom: 1px solid #dee2e6!important;
+  }
+
+  .observation-font-color{
+    color: #acadb9 !important;
+  }
+
+  .font-contributors{
+    color: #acadb9 !important;
+  }
+
+  .font-qv{
+    color: #676a6c !important;
+    font-weight: 600 !important;
+  }
+
+  .top-producing-personal-legs{
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+}

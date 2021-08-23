@@ -1,0 +1,60 @@
+
+.btn-primary:hover,
+.btn-primary:focus,
+
+.btn-primary.focus {
+    background-color:$ncrease-dark;
+    border-color:$ncrease-dark;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:$ncrease-dark;
+    border-color:$ncrease-dark;
+    font-weight: bold;
+    border-radius:10px;
+
+    &:hover {
+        background-color:$ncrease-dark;
+        border-color:$ncrease-dark;
+    }
+}
+
+.btn-outline-primary {
+    border-color:$ncrease-dark;
+    border-width: 1px;
+    color: #676a6c;
+    font-weight: bold;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+    &:hover {
+        background-color:$ncrease-dark;
+        border-color:$ncrease-dark;
+    }
+}
+
+
+@media (max-width: 1800px){
+    .btn {
+        // font-size: smaller;
+        white-space: nowrap;
+        text-overflow: ellipsis; 
+        overflow: hidden;
+    }
+}
+
+.btn-primary:disabled {
+    color: #fff;
+    background-color:$ncrease-dark;
+    border-color:$ncrease-dark;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color:$ncrease-dark;
+    border-color:$ncrease-dark;
+}
+

@@ -1,0 +1,230 @@
+.widget-rounded-border-top {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.widget-rounded-border-bottom {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.ibumm-widget-title {
+    font-weight: 600;
+    color: #434344;
+    font-size: 18px !important;
+    letter-spacing: 4px;
+}
+
+.ibumm-widget-title-small {
+    font-weight: bold;
+    color: rgb(0, 146, 208);
+    text-align: center;
+    font-size: 13px !important;
+    
+}
+
+.ibumm-battery-status {
+    margin-top: 35px;
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+    font-size: 13px !important;
+}
+
+.ibumm-battery-status {
+    margin-top: 35px;
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+    font-size: 13px !important;
+}
+
+
+/* Business Snapshot Widget */
+.dashboard_1_2_context_1_center {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.dashboard_1_2_context_1_center_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard_1_2_context_2_center {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.dashboard_1_2_context_2_center_1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.dashboard_1_2_context_2_center_2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.dashboard_context_footer_text {
+    font-size: 10px;
+    width: 100px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.dashboard_1_3_context {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dashboard_1_3_context_time {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(83, 175, 255);
+}
+
+.dashboard_1_3_context_center {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.dashboard_1_3_context_center_text_1 {
+    color: rgb(84, 207, 170);
+    font-weight: bold;
+    width: 100%;
+    text-align: end;
+}
+
+.dashboard_1_3_context_center_text_2 {
+    color: rgb(106, 173, 231);
+    font-weight: bold;
+    width: 100%;
+    text-align: end;
+}
+
+.dashboard_1_3_context_center_text_3 {
+    color: rgb(224, 121, 73);
+    font-weight: bold;
+    width: 100%;
+    text-align: end;
+}
+
+.dashboard_1_3_context_center_input {
+    width: 100%;
+    cursor: pointer;
+}
+
+.dashboard_1_3_context_container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.widget-align-center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.dashboard_1_3_context_center_text_1::after {
+    color: rgb(84, 207, 170);
+    font-weight: bold;
+    line-height: 10px;
+    content: "Class";
+    display: block;
+    white-space: pre;
+}
+
+.dashboard_1_3_context_center_text_2:after {
+    color: #6aade7;
+    font-weight: bold;
+    line-height: 10px;
+    content: "Class";
+    display: block;
+    white-space: pre;
+}
+
+.dashboard_1_3_context_center_text_3:after {
+    color: #e07949;
+    font-weight: bold;
+    line-height: 10px;
+    content: "Class";
+    display: block;
+    white-space: pre;
+}
+
+/* Monthly Team Performance Widget */
+.dashboard_1_second_context_1 {
+    display: flex;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.dashboard_1_second_context_3 {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.dashboard_1_second_context_1_title, .dashboard_1_second_context_3_title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.dashboard_1_second_context_1_subtitle, .dashboard_1_second_context_3_subtitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.dashboard_1_second_context_1_subtitle:after {
+    font-weight: bold;
+    text-align: center;
+    content: "AMBASSADORS";
+    display: block;
+    white-space: pre;
+}
+
+.dashboard_1_second_context_3_subtitle:after {
+    font-weight: bold;
+    text-align: center;
+    content: "CUSTOMERS";
+    display: block;
+    white-space: pre;
+}
+
+
+.widget-title {
+    font-weight: 600;
+    color: #434344;
+    font-size: 18px !important;
+    letter-spacing: 1px;
+}
+
+.widget-title-small {
+    font-weight: 600;
+    color:#000;
+    text-align: left;
+    text-transform: initial;
+    font-size: 13px !important;    
+}

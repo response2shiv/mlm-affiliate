@@ -1,0 +1,126 @@
+.commissions-icon-label{
+    font-size: 12px;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+.link-commissions-table{
+    font-weight: 700;
+}
+
+.nav-item .nav-link.active{
+    color: #0092d0 !important;
+}
+
+// .projected-monthly-volume .nav-pills .nav-item .nav-link.active {
+//     background: transparent;
+//     color: #36a3f7;
+// }
+
+.nav .nav-item .nav-link.active:after {
+    content: "";
+    width: auto;
+    background: #0092d0;
+    height: 3px;
+    display: block;
+    margin: 5px auto 0 auto;
+}
+
+.chart-legend-fsb{
+    width: 20px;
+    height: 20px;
+    background-color: #7ad7ff;
+}
+
+.chart-legend-tsb{
+    width: 20px;
+    height: 20px;
+    background-color: #1dbcfe;
+}
+.chart-legend-ldb{
+    width: 20px;
+    height: 20px;
+    background-color: #0192d1;
+}
+
+.chart-legend-unilevel{
+    width: 20px;
+    height: 20px;
+    background-color: #0673d0;
+}
+
+.chart-legend-dual-team {
+  width: 20px;
+  height: 20px;
+  background-color: #0055b2;
+}
+
+
+.chart-legend-level1{
+    width: 20px;
+    height: 20px;
+    background-color: #7ad7ff;
+}
+
+.chart-legend-level2{
+    width: 20px;
+    height: 20px;
+    background-color: #1dbcfe;
+}
+.chart-legend-level3{
+    width: 20px;
+    height: 20px;
+    background-color: #0192d1;
+}
+
+.chart-legend-level4{
+    width: 20px;
+    height: 20px;
+    background-color: #0673d0;
+}
+
+.chart-legend-level5{
+    width: 20px;
+    height: 20px;
+    background-color: #398dd6;
+}
+
+.chart-legend-level6{
+    width: 20px;
+    height: 20px;
+    background-color: #2a5983;
+}
+
+.chart-legend-level7{
+    width: 20px;
+    height: 20px;
+    background-color: #4889c2;
+}
+
+tr.hide-table-padding td {
+    padding: 0;
+  }
+  
+  .expand-button {
+      position: relative;
+  }
+  
+  .accordion-toggle .expand-button:after
+  {
+    position: absolute;
+    left:.75rem;
+    top: 50%;
+    transform: translate(0, -50%);
+    content: '-';
+  }
+  .accordion-toggle.collapsed .expand-button:after
+  {
+    content: '+';
+  }
+  
+  .title-bar-item-disabled {
+    color: #a7b1c2 !important
+  }
+
+  .title-bar-item-active {
+    color: #0092d0 !important
+  }

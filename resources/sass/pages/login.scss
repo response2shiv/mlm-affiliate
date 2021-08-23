@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+.login-wrapper {
+    background: $white;
+    font-family: 'Montserrat', serif;
+}
+
+.form-signin {
+    .logo {
+        text-align: center;
+
+        img {
+            margin-bottom: 20px;
+            vertical-align: middle;
+        }
+    }
+
+    width: 80%;
+    margin-top: 30vh;
+    margin-left: 10%;
+    font-size: 10px;
+
+    .form-group {
+        margin-bottom: 1rem;
+
+        .control-label {
+            color: $labelTextColor;
+        }
+
+        .form-control {
+            &:focus {
+                border-color: $inputBorderColorFocus;
+            }
+        }
+
+        .invalid-feedback {
+            font-size: 13px !important;
+        }
+    }
+
+    .form-sub {
+        font-size: 13px;
+    }
+
+    .form-actions {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.bg-image {
+    background-size: cover;
+    background: url('../img/affiliates/bg.jpeg') bottom;
+    height: 100vh;
+
+    .welcome {
+        padding-top: 40vh;
+        padding-left: 50px;
+
+        span {
+            color: $white;
+            font-size: 40px;
+        }
+    }
+}

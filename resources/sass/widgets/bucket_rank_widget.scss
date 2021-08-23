@@ -1,0 +1,75 @@
+
+
+.bucket {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bucket-circle {
+    height: 100px;
+    width: 100px;
+    border-radius:50%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+    background: linear-gradient(160deg, $ncrease-primary 50%,$ncrease-secondary 100%);
+    -webkit-box-shadow: -5px 6px 15px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 6px 15px -4px rgba(0,0,0,0.75);
+    box-shadow: -5px 6px 15px -4px rgba(0,0,0,0.75);
+}
+
+.bucket-name {
+    color:#fff;    
+    font-size: 46px;
+}
+
+.bucket-volume {
+    margin-top: 20px;
+    font-size: 22px;
+    color:#000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.bucket-text {
+    color:#969697;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.breakdown-table {    
+    color:#969697;       
+}
+
+.breakdown-table thead tr td {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+}
+
+.breakdown-table tbody tr td {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;        
+}
+
+.cancelled-text {
+    font-size: 10px;
+    color:#9999
+}
+
+.tootiptext {
+    z-index: 1;
+    position: absolute;
+    top: -80px;
+    left:250px;
+    background-color: #e4eaf6;
+    font-size:12px   
+}
+
+.table-requirements tbody tr td {
+    line-height: 0.2;
+    font-weight: 500;
+}

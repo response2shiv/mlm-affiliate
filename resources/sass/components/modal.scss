@@ -1,0 +1,40 @@
+.ib-modal {
+    h3 {
+        text-transform: uppercase;
+    }
+
+    .modal-header, .modal-footer {
+        display: block;
+        text-align: center;
+    }
+
+    .modal-body {
+      color: #495057;
+
+      input, textarea, select {
+        color: #495057 !important;
+      }
+
+      .table {
+          thead, tfoot {
+              text-transform: uppercase;
+          }
+
+          color: $white;
+      }
+    }
+
+    .modal-body,
+    .modal-footer {
+      background: #fff;
+    }
+
+    .modal-footer {
+      border-top: 0;
+      border-bottom-left-radius: .1rem;
+      border-bottom-right-radius: .1rem;
+    }
+}
+
+@import "modals/agreement";
+@import "modals/thank_you";

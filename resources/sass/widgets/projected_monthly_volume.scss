@@ -1,0 +1,238 @@
+.pmv_title_bold {
+  font-size: 30px;
+  color: #2578b9;
+  font-weight: bold;
+}
+
+.pmv_title_bold_subtitle {
+  margin-top: -10px;
+  margin-left: 30px;
+}
+
+.pvm_widget_font {
+  font-size: 15px !important;
+  margin-top: -10%;
+}
+
+.pmv_title_bold_bigger {
+  font-size: 30px;
+  color: #2578b9;
+  font-weight: bold;
+}
+
+.pmv_title_lighter {
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #248be6;
+}
+
+.pmv_widget_col_left {
+  min-width: 50%;
+  margin-left: 10px;
+}
+.chart_projected_mothly_widget{
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.pmv_subtitle_widget {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgba(71, 67, 67, 0.678);
+}
+
+.pmv_title_bold_total_processed{  
+  margin-left: 30px;
+}
+
+.pmv_value {
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 11px;
+  color: #3c7abb;
+  margin-left: -80px;
+}
+
+.pmv_processed_box {
+  
+  background: #15cce4;  
+  margin: 10px 10px 10px 10px;
+  padding: 00px 10px 0px 10px ;
+  
+}
+
+.pmv_projected_box {
+  margin: 10px 10px 10px 10px;
+  padding: 00px 10px 0px 10px ;
+  background: #e0c832;
+}
+
+.pmv_box {
+  width: 100%;
+}
+
+.pmv_pie_chart {
+  cursor: pointer;
+  width: 300px;
+  padding-top: -45px;
+  padding-right: 0;
+}
+
+.dataTables_processing#dt_projected_monthly_volume_processing {
+  color: gray;
+}
+
+.dataTables_info#dt_projected_monthly_volume_info {
+  float: left;
+  color: black;
+}
+
+.container-fluid#dt_projected_monthly_volume_wrapper {
+  padding-right: 0;
+}
+
+.dataTables_filter#dt_projected_monthly_volume_filter {
+  input {
+    width: 80%;
+    font-size: 11px;
+  }
+}
+
+.dataTables_paginate#dt_projected_monthly_volume_paginate {
+  float: right;
+}
+
+#dt_projected_monthly_volume {
+  border-top: 0;
+  color: #373535;
+  text-align: center !important;
+}
+
+#dt_projected_monthly_volume tr {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.table#dt_projected_monthly_volume {
+  border: 0;
+  text-align: center !important;
+}
+
+#modalProjectedMonthlyVolume {
+  font-size: 13px;
+
+  .modal-footer {
+    background: white;
+  }
+  .modal-body {
+    background: white;
+    color: #464141;
+    width: 100%;
+    thead {
+      text-transform: capitalize;
+      border-bottom: 0;
+    }
+  }
+}
+
+.pmv_button_details{
+  margin-left: 3%;
+  margin-top: 30px;
+  min-width: 30%;
+}
+
+.pvm_failed_row {
+  background-color: #c2eefb !important;
+  border: 0 0 0 0;
+  clear: both;
+  font-weight: 600 !important;
+}
+
+.align-chart_projected_mothly_widget {
+  margin-top: 1%;
+  align-items: center;
+  padding-top: 3%;
+  margin-left: 10%;
+}
+
+.projected-monthly-volume {
+  .tab-content{
+    margin-left: 20px;
+  }
+
+  .nav-pills {
+    min-width: 35;
+    margin-top: 15%;
+    margin-left: 23%;
+    
+    .nav-item {
+      .nav-link {
+        color: $darkGrey;
+        padding: 15px 14px 10px 14px;
+        font-weight: 500 !important;
+
+        &.active {
+          background: transparent;
+          color: $blue;
+
+          &:after {
+            content: "";
+            width: 35px;
+            background: $blue;
+            height: 3px;
+            display: block;
+            margin: 5px auto 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 450px) {
+  .tab-content-align {
+    margin-left: -230px;
+    margin-top: 1.5rem !important;
+  }
+  .align-chart {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 450px) {
+  .tab-content-align {
+    margin-top: -40px;
+  }
+  .align-chart {
+    margin-top: 5px;
+    margin-right: 60px;
+    margin-left: 0px !important;
+  }
+}
+
+@media (min-width: 1539px) {
+  .align-chart {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 360px) {
+  .pmv_value {
+    font-size: 12px !important;
+    margin-left: -70px;
+  }
+  .pmv_subtitle_widget {
+    font-size: 12px !important;
+    margin-left: -25px;
+    margin-right: 0px !important;
+  }
+}
+
+#chartCredits {
+  cursor: pointer;
+}
+
+#chartVolume {
+  cursor: pointer;
+}

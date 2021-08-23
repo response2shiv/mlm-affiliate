@@ -1,0 +1,14 @@
+.header_image {
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 300px;
+}
+
+.header_image > img,
+.header_image > a > img {
+    width: 100%;
+    // object-fit: cover;
+    // height: 300px;
+    border-radius: 10px;
+}

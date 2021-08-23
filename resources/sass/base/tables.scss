@@ -1,0 +1,20 @@
+.ib-table {
+    thead {
+        background-color:  #f4f5f8;
+        font-weight: normal;
+    }
+}
+
+.table-striped {
+    tbody {
+        tr:nth-of-type(2n+2) {
+            background-color: #f4f5f8 !important;
+        }
+
+        tr {
+            td {
+                border-top: 0;
+            }
+        }
+    }
+}

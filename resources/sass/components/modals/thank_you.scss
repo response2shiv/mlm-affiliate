@@ -1,0 +1,23 @@
+#modalThankYou,
+#modalTrainingThankYou,
+#modalUpgradeThankYou {
+  h3.thank-you {
+    font-size: 26px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+  }
+
+  h3.divider:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -35px;
+    width: 42px;
+    height: 62px;
+    background: url('../assets/images/white-icon.png') no-repeat center center;
+    background-size: contain;
+    transform: translateX(-50%);
+  }
+}

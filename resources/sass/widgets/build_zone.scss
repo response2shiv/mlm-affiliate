@@ -1,0 +1,54 @@
+.zone {
+  font-family: Montserrat, serif;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.blue-zone {
+    background-color: $blue-zone;
+    color:#fff;
+}
+
+.white-zone {
+  font-family: Montserrat, serif;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: $white-zone;
+
+}
+
+.gold-zone {
+  font-family: Montserrat, serif;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: $gold-zone;
+}
+
+.zone-title {
+  font-style: italic;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.zone-subtitle p {
+  font-size:16px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.zone-body{
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+@media(max-width: 380px) {
+  .zone-subtitle {
+    p {
+      line-height: 20px;
+    }
+  }
+}
+
+
+
+
+

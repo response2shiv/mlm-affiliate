@@ -1,0 +1,111 @@
+.dataTables_scrollHeadInner{
+  box-sizing: content-box;
+  width: 100% !important;
+  padding-right: 0px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 !important;
+  font-weight: 100;
+}
+
+table.dataTable {
+  clear: both;
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+  max-width: none !important;
+  border-collapse: collapse !important;
+}
+.table-striped tbody {
+  background-color: #fFF !important;
+}
+
+.label-success, .badge-success {
+  background-color: #1ab394 !important;
+  color: #FFFFFF;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+  font-weight: 50;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgb(255, 255, 255);
+}
+
+.table > thead > tr > th {
+  /* border-bottom: 1px solid #DDDDDD; */
+  /* vertical-align: bottom; */
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {  
+  position: relative;
+  margin: 2% 0% 0% -8%;  
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+div.dataTables_wrapper div.dataTables_processing {
+  z-index: 999;
+}
+
+.pack-image{
+  border-radius: 50%;
+  height: 19px;
+  margin-right: 15px;
+  position: relative;
+  width: 19px;
+}
+
+.logo-small {
+  fill: #fff;
+  height: 16px;
+  position: absolute;
+  right: 3px;
+  top: 2px;
+  width: 12px;
+}
+
+.vibe-overdrive-class .selected-pack {
+  background-color: #7300b7;
+}
+
+.standby-class .selected-pack {
+  background-color: #b5b7b7;
+}
+
+.coach-class .selected-pack {
+  background-color: #0A4D82;
+}
+
+.business-class .selected-pack {
+  background-color: #E7B52C;
+}
+
+.first-class .selected-pack {
+  background-color: #00B6EB;
+}
+
+.elite-class .selected-pack {
+  background-color: #FF6400;
+}
+
+li {
+  display: flex;
+  margin-bottom: 5px;
+}

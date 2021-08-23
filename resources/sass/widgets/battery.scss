@@ -1,0 +1,49 @@
+.battery-icon {
+    display: flex;
+    margin-top: 62px;
+    width: 130px;
+    height: 80px;
+    border-radius: 10px;
+    border: 5px solid darkslategrey;
+    transform: rotate(-90deg);
+}
+
+.battery-icon:before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    height: 62px;
+    border-radius: 5px;
+}
+
+.battery-icon:after {
+    content: "";
+    position: absolute;
+    right: -21px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 29px;
+    border-radius: 5px;
+    background: darkslategrey;
+}
+
+@function calcSize($percent) {
+    @return percentage($percent * (93 / 100)) / 100;
+}
+
+@for $i from 0 through 100 {
+    .battery-size-#{$i} {
+        &:before {
+            width: calcSize($i);
+            @if $i == 100 {
+                background: $gradientBlue;
+            } @else {
+                background-color: $darkRed;
+            }
+        }
+    }
+}
+
+

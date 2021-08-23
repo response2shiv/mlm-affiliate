@@ -1,0 +1,54 @@
+/**
+ * ONLY ADD CSS CLASSES FOR AFFILIATES PAGES ONLY.
+ *
+ * FOR BETTER ORGANIZATION CREATE INDIVIDUAL SCSS FILES
+ * FOR EACH PAGE OR FEATURE AND IMPORT THOSE FILES HERE.
+ *
+ * ALL IMPORTED FILES NEEDS TO BE INSIDE THE AFFILIATES FOLDER.
+ *
+ * E.g.
+ *
+ * @import 'affiliates/buttons'
+ */
+
+@import 'variables/colors';
+
+// Base
+// @import 'base/colors.scss';
+@import 'base/custom';
+@import 'base/tables';
+@import 'base/buttons';
+@import 'base/ibox';
+@import 'base/icons';
+@import 'base/datatables/reports';
+
+// Pages
+@import 'pages/login';
+@import 'pages/profile';
+@import 'pages/binary_viewer';
+@import 'pages/e_wallet';
+@import 'pages/entire_organization_report';
+@import 'pages/commissions';
+@import 'pages/suspended';
+@import 'pages/world_series';
+
+// Components
+@import 'components/buttons';
+@import 'components/sidebar';
+@import 'components/modal';
+
+// Widgets
+@import 'widgets/widget';
+@import 'widgets/top_banner';
+@import 'widgets/battery';
+@import 'widgets/buumerang_widget';
+@import 'widgets/rank_insights';
+@import 'widgets/projected_monthly_volume';
+@import 'widgets/subscription';
+@import 'widgets/checkout';
+@import 'widgets/business_snapshot';
+@import 'widgets/commissions';
+@import 'widgets/build_zone';
+@import 'widgets/world_series';
+@import 'widgets/soon';
+@import 'widgets/bucket_rank_widget.scss';
